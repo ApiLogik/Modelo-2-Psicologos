@@ -1,0 +1,605 @@
+/*****     GENERAL     ****/
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html,body{
+		width: 100%;
+		height: 100%;
+		font-family: "Verdana", sans-serif;
+	}
+
+	@font-face {
+		font-family: 'Dancing Script';
+		src: url('../fonts/DancingScript-Regular.woff2') format('woff2'),
+			 url('../fonts/DancingScript-Regular.woff') format('woff');
+		font-style: normal;
+		font-display: swap;
+  }
+  
+
+	h1{
+		font-size: 60px;
+		font-weight: 700;
+		padding: 10px 0;
+		text-align: center;
+		font-family: "Dancing Script", cursive, "Verdana", sans-serif;
+	}
+
+	h2{
+		font-size: 40px;
+		font-weight: 400;
+		padding: 10px 0;
+		text-align: center;
+		font-family: "Dancing Script", cursive, "Verdana", sans-serif;
+	}
+
+	p, a{font-size: 14px;}
+
+	section{
+		width: 100%;
+		padding: 30px 2%;
+	}
+
+	.container{
+		max-width: 1280px;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0 2%;
+	}
+
+
+/*****     HEADER     *****/
+	.header{
+		width: 100%;
+		height: 70px;
+		background: linear-gradient(90deg, rgb(137, 143, 201) 30%, rgb(75,80,156) 70%);
+		position: fixed;
+		z-index: 99;
+	}
+
+	.box-header{
+		width: 100%;
+		height: 100%;
+		display: inline-flex;
+	}
+
+	.logo{width: 35%;}
+
+	.logo img{
+		max-width: 100%;
+		max-height: 70px;
+	}
+
+	.header-r{
+		width: 65%;
+		display: inline-flex;
+		text-align: right;
+	}
+
+	.menu{
+		width: 100%;
+		text-align: right;
+		display: inline-flex;
+		flex-wrap: nowrap;
+	}
+
+	.desktop{
+		width: 100%;
+		padding: 17px 0;
+	}
+
+	.desktop li{
+		display: inline-flex;
+		list-style-type: none;
+		cursor: pointer;
+	}
+
+	.desktop li a{
+		color: white;
+		text-decoration: none;
+		padding: 10px 8px;
+	}
+
+	.desktop li a:hover{
+		background: rgba(255,255,255,0.2);
+		border-radius: 5px;
+	}
+
+	.sm-icons-header{
+		display: inline-flex;
+	}
+
+	.sm-icons-header i{
+		color: white;
+		font-size: 20px;
+		padding: 17px 10px;
+		margin-top: 8px;
+	}
+
+	.icon-menu-mob{
+		width: 40px;
+		height: 40px;
+		display: none;
+		margin: 15px;
+	}
+
+	.icon-menu-mob > i{
+		font-size: 45px;
+		color: white;
+		cursor: pointer;
+	}
+
+	.mobile{
+		display: none;
+		width: 250px;
+		position: absolute;
+		right: 10px;
+		top: 65px;
+		background: rgba(14,5,66,0.8);
+		text-align: center;
+		border: 1px solid rgba(255,255,255,0.3);
+	}
+
+	.mobile li{
+		list-style-type: none;
+		padding: 10px 0;
+	}
+
+	.mobile li a{
+		color: white;
+		text-decoration: none;
+		padding: 5px;
+		font-size: 16px;
+	}
+
+	.mobile li a:hover{
+		background: rgba(255,255,255,0.2);
+		border-radius: 5px;
+	}
+
+
+/*****     APRESENTACAO     *****/
+	section.apres{
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(90deg, rgb(137, 143, 201) 30%, rgb(75,80,156) 70%);
+	}
+
+	.logo-apres{
+		max-width: 540px;
+		height: 100%;
+		margin: 0 auto;
+		background-image: url('../media/logopsicbg.png');
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+
+/*****     SOBRE     *****/
+	.box-sobre{
+		width: 100%;
+		height: 100%;
+		padding: 0 40px;
+		display: inline-flex;
+		position: relative;
+		display: none;
+	}
+
+	.img-sobre{width: 40%;}
+
+	.img-sobre img{
+		width: 350px;
+		height: 350px;
+		box-sizing: content-box;
+		position: absolute;
+		left: 130px;
+		top: 40px;
+	}
+
+	.text-sobre{
+		width: 70%; /* sob img absolute (+10%)*/
+		padding: 40px 40px 40px 60px;
+		background: rgb(75,80,156);
+		color: white;
+	}
+
+	.text-sobre h2{
+		padding: 0;
+		font-weight: lighter;
+		text-align: center;
+	}
+
+	.text-sobre p:nth-of-type(1){text-align: center;}
+
+	.text-sobre ul{padding: 30px 30px 30px 50px;}
+
+	.text-sobre ul li{list-style-type: circle;}
+
+
+/*****     TERAPIAS     *****/
+	section.terapias{
+		width: 100%;
+		background-image: url('../media/bgmental.jpg');
+		background-color: rgba(0,0,0,0.7);
+		background-blend-mode: overlay;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+	}
+
+	.box-terapias{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	.terapia-single{
+		width: 33.3%;
+		margin: 30px;
+		padding: 20px;
+		text-align: center;
+		transition: .5s;
+		border-radius: 15px;
+	}
+
+	.terapia-single:hover{
+		transform: scale(1.3);
+		background: rgba(0,0,0,0.3);
+	}
+
+	.terapia-single p{line-height: 20px;}
+
+	.terapia-single button,
+	.vr button,
+	#send{
+		padding: 15px;
+		margin: 20px auto;
+		border-radius: 20px;
+		outline: none;
+		background: rgb(108,112,158);
+		color: white;
+		font-weight: bold;
+		font-family: inherit;
+		font-size: 14px;
+		cursor: pointer;
+		border: 0;
+	}
+
+	.terapia-single button:hover,
+	.vr button:hover,
+	#send:hover{background: rgb(75,80,156);}
+
+
+/*****     SAUDE MENTAL     *****/
+	.box-saude{
+		width: 100%;
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	.saude-single{
+		width: 33.33%;
+		text-align: center;
+		margin: 10px auto;
+		padding: 10px 0;
+		transition: 0.6s;
+	}
+
+	.vr{
+		width: 100%;
+		height: 48%;
+		position: relative;
+	}
+
+	.saude-single:nth-of-type(2) > .vr,
+	.saude-single:nth-of-type(5) > .vr{
+		border-right: 3px solid rgba(200,200,200,1);
+		border-left: 3px solid rgba(200,200,200,1);
+	}
+
+	.vr button{
+		width: 200px;
+		position: absolute;
+		transform: translate(25%, 150%);
+		z-index: 2;
+		margin: 0 auto;
+		font-size: 16px;
+		display: none;
+		transition: 0.6s
+	}
+
+	.saude-single h2{padding: 10px 0;}
+
+	.saude-single span{font-size: 12px;}
+
+	.saude-single i{margin-right: 10px;}
+
+	.saude-single p{padding: 20px 40px;}
+
+	.saude-single:hover{transform: scale(1.1);}
+
+	.saude-single:hover .vr button{display: inline-table;}
+
+	.saude-single:hover img{opacity: 0.5;}
+
+
+/*****     CONTATO     *****/
+	section.contato{
+		width: 100%;
+		background-image: url('../media/bgcontato.jpg');
+		background-color: rgba(0,0,0,0.8);
+		background-blend-mode: overlay;
+		background-position: center top;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		color: white;
+	}
+
+	.box-contato{
+		width: 100%;
+		display: inline-flex;
+		background-color: rgba(75,80,156,0.6);;
+		border-radius: 10px;
+		margin: 0 auto;
+		padding: 0 50px;
+		display: none;
+	}
+
+	.contato{
+		width: 50%;
+		padding: 20px 50px;
+		text-align: center;
+	}
+
+	.contato p,
+	.contato a{
+		text-align: left;
+		padding: 10px 0;
+		font-size: 16px;
+		line-height: 1.5;
+		color: white;
+		text-decoration: none;
+	}
+
+	.contato a:hover,
+	.footer a:hover{text-decoration: underline;}
+
+	.contato i{
+		margin-right: 10px;
+		font-size: 25px;
+	}
+
+	.form{
+		width: 100%;
+		height: 40px;
+		margin: 5px 0;
+		background: none;
+		color: white;
+		font-size: inherit;
+		font-family: inherit;
+		outline: none;
+		border: 1px solid rgba(200,200,200,0.5);
+		padding: 5px;
+		border-radius: 5px;
+	}
+
+	.msg{
+		height: 150px;
+		resize: none;
+	}
+
+	::placeholder {color:white;}
+	::-ms-input-placeholder{color:white;}
+
+	.alert-submit p{
+		text-align: center;
+		font-weight: bold;
+		padding: 0;
+	}
+
+	#msg-sended{
+		color: rgb(86, 216, 86);
+	}
+
+	#msg-error{
+		color: rgb(231, 141, 141);
+	}
+	
+
+
+/*****     FOOTER     *****/
+	section.footer{
+		width: 100%;
+		background: linear-gradient(90deg, rgb(108,112,158) 30%, rgb(75,80,156) 70%);
+		margin: 0;
+		padding: 0 0 10px 0;
+		color: white;
+		text-align: center;
+	}
+
+	.footer a{
+		color: white;
+		text-decoration: none;
+	}
+
+	.box-footer{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	.footer-single{width: 50%;}
+
+	.sm-icons-footer{display: inline-flex;}
+
+	.sm-icons-footer i{
+		color: white;
+		font-size: 40px;
+		padding: 0 10px;
+	}
+
+	.footer-single ul{
+		list-style-type: circle;
+		text-align: left;
+		padding: 0 0 20px 150px;
+		line-height: 1.5;
+	}
+
+	.footer span p,
+	.footer span a{font-size: 10px;}
+
+
+/*****     Fixed WS     *****/
+	.atend-ws{
+		width: 260px;
+		background: rgb(30,136,30);
+		color: white;
+		border-radius: 25px;
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		z-index: 98;
+		padding: 10px;
+		text-align: center;
+		box-sizing: content-box;
+		border: 3px solid white;
+		cursor: pointer;
+	}
+
+	.atend-ws a{
+		font-size: 16px;
+		font-weight: bold;
+		color: white;
+		text-decoration: none;
+	}
+
+	.atend-ws i{
+		width: 38px;
+		height: 38px;
+		position: absolute;
+		font-size: 40px;
+		bottom: 30px;
+		right: 10px;
+		background: rgb(30,136,30);
+		border-radius: 50%;
+	}
+
+	.atend-ws span{
+		color: rgb(30,136,30);
+		font-weight: bold;
+		position: absolute;
+		bottom: 68px;
+		right: 10px;
+	}
+
+
+/*****     MEDIA QUERIES     *****/
+	@media screen and (max-width: 1280px){
+		.img-sobre{width: 30%;}
+
+		.img-sobre img{
+			width: 250px;
+			height: 250px;
+			top: 20%;
+			left: 10%;
+		}
+	}
+
+	@media screen and (max-width: 1000px){
+		.desktop li a{
+			padding: 10px 3px;
+			font-size: 12px;
+		}
+		.sm-icons-header i{padding: 20px 5px;}
+
+		.box-sobre{display: inline-block;}
+
+		.img-sobre{
+			text-align: center;
+			background: rgb(75,80,156);
+			width: 100%;
+		}
+
+		.img-sobre img{
+			width: 150px;
+			height: 150px;
+			top: 5px;
+			left: 45px;
+			border-radius: 50%;
+		}
+
+		.text-sobre{
+			width: 100%;
+			padding-left: 130px;
+		}
+
+		.box-terapias{display: inline-block;}
+
+		.terapia-single{
+			width: 80%;
+			margin: 30px;
+			padding: 20px;
+			margin: 50px auto;
+		}
+
+		.saude-single{width: 50%;}
+
+		.vr{border: 0 !important;}
+
+		.box-contato{padding: 0 20px;}
+
+		.contato{padding: 10px;}
+
+		.footer-single ul{padding: 0 0 20px 50px;}
+
+	}
+
+	@media screen and (max-width: 790px){
+		.logo{width: 50%;}
+
+		.header-r{width: 50%;}
+
+		.desktop{display: none;}
+
+		.icon-menu-mob{display: inline-flex;}
+
+		.sm-icons-header i{padding: 20px 10px;}
+
+		.logo-apres{background-size: 80%;}
+
+		.box-sobre{padding: 0 10px;}
+
+		.img-sobre img{
+			margin: 0 auto;
+			position: static;
+			padding: 5px 0;
+		}
+
+		.text-sobre{padding: 20px 10px;}
+
+		.box-saude{display: inline-block;}
+
+		.saude-single{width: 100%;}
+
+		.saude-single:hover{transform: none;}
+
+		.box-contato{display: inline-block;}
+
+		.contato{width: 100%;}
+
+		.footer{padding: 0 0 60px 0 !important;}
+
+		.box-footer{display: inline-block;}
+
+		.footer-single{
+			width: 100%;
+			padding: 20px 0;
+		}
+	}
+
+	@media screen and (max-width: 440px){
+		.logo img{margin: 15px 0;}
+	}

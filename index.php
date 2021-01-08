@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Danielle Freire - Psicologia</title>
+	<link rel="icon" type="image/png" href="media/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!----SEO & SMO---->
+	
+	<!----CSS---->
+	<link href="css/custom-font-awesome.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<anchor id="start"></anchor>
+					<!--------HEADER-------->
+<div class="header">
+	<div class="container">
+		<div class="box-header">
+			<div class="logo"><a href="#start" title="Voltar ao topo"><img src="media/logopsicheader.png"></div></a>
+			<div class="header-r">
+				<div class="menu">
+					<ul class="desktop">
+						<li><a href="#sobre">A Psicóloga</a></li>
+						<li><a href="#terapias">Psicoterapias</a></li>
+						<li><a href="#saude">Saúde mental</a></li>
+						<li><a href="#contato">Agende sua consulta</a></li>
+					</ul><!--ul-desktop-->
+				</div><!--menu-->
+				<div class="icon-menu-mob"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+				<ul class="mobile">
+					<li><a href="#sobre">A Psicóloga</a></li>
+					<li><a href="#terapias">Psicoterapias</a></li>
+					<li><a href="#saude">Saúde mental</a></li>
+					<li><a href="#contato">Agende sua consulta</a></li>
+				</ul><!--ul-mobile-->
+
+				<div class="sm-icons-header">
+					<a target="_blank" title="Atendimento via Whatsapp" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+					<a target="_blank" title="Nossa página no Facebook" href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a target="_blank" title="Nosso perfil no Instagram" href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div><!--sm-icons-->
+			</div><!--header-r-->
+		</div><!--box-header-->
+	</div><!--container-->
+</div><!--section-header-->
+
+					<!--------APRESENTACAO-------->
+<section class="apres">
+	<div class="logo-apres"></div>
+</section><!--section-apres-->
+
+					<!--------SOBRE-------->
+<section class="sobre">
+	<anchor id="sobre"></anchor>
+	<div class="container">
+		<h1>A Psicóloga</h1>
+		<h2>Um pouco sobre mim</h2>
+		<div class="box-sobre">
+			<div class="img-sobre"><img src="media/fotopsic.jpg"></div>
+			<div class="text-sobre">
+				<h2>Danielle Freire</h2>
+				<p>CRP: 000/0<br/>
+				<br/>
+				Psicóloga especialista em Terapia Cognitivo-Comportamental.</p>
+				<br/>
+				<p>Minim nisi excepteur cupidatat ut nostrud cillum proident cupidatat consectetur mollit ut ut ut ut veniam. Laboris enim labore aliquip eiusmod et nostrud ut laboris velit sint occaecat nostrud.</p>
+				<ul>
+					<li>Dolore ut voluptate elit ut aute reprehenderit ut tempor nostrud laborum esse in proident deserunt mollit amet in consequat.</li>
+					<li>Lorem ipsum commodo fugiat do dolore do nisi incididunt et irure nulla labore dolor nostrud nostrud veniam voluptate.</li>
+					<li>Aute amet in eiusmod quis dolore excepteur deserunt reprehenderit quis anim magna aliqua.</li>
+					<li>Esse ex sint aute esse deserunt reprehenderit sunt ut.</li>
+				</ul>
+			</div><!--text-sobre-->
+		</div><!--box-sobre-->
+	</div><!--container-->
+</section><!--section-sobre-->
+
+					<!--------TERAPIAS-------->
+<section class="terapias">
+	<anchor id="terapias"></anchor>
+	<div class="container">
+		<h1>Psicoterapias</h1>
+		<h2>Veja as modalidades de atendimento psicológico que oferecemos.</h2>
+		<div class="box-terapias">
+			<div class="terapia-single">
+				<img src="media/terapia01.png">
+				<h2>Psicoterapia <br/>
+				Individual</h2>
+				<p>Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum. Sunt Lorem aliquip non veniam.Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum.</p>
+				<button>Mais informações...</button>
+			</div><!--terapia-single-->
+			<div class="terapia-single">
+				<img src="media/terapia02.png">
+				<h2>Orientação Psicológica Online</h2>
+				<p>Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum. Sunt Lorem aliquip non veniam.Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum.</p>
+				<button>Mais informações...</button>
+			</div><!--terapia-single-->
+			<div class="terapia-single">
+				<img src="media/terapia03.png">
+				<h2>Perícia <br/>
+				Psicológica</h2>
+				<p>Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum. Sunt Lorem aliquip non veniam.Eu irure eu ullamco id. Culpa magna voluptate cillum aute est ea qui dolore mollit. Lorem pariatur aute ex ipsum.</p>
+				<button>Mais informações...</button>
+			</div><!--terapia-single-->
+		</div><!--box-terapias-->
+	</div><!--container-->
+</section><!--section-terapias-->
+
+					<!--------SAUDE MENTAL-------->
+<section class="saude">
+	<anchor id="saude"></anchor>
+	<div class="container">
+	<h1>Saúde mental</h1>
+	<h2>Blog com notícias, artigos e livros sobre saúde mental e psicologia.</h2>
+		<div class="box-saude">
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>			
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+			<div class="saude-single">
+				<div class="vr">
+					<button>Leia mais...</button>
+					<img src="media/bgterapias.jpg">
+				</div>
+				<h2>Título do Artigo</h2>
+				<span><i class="fa fa-calendar" aria-hidden="true"></i>01/01/2020</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, obcaecati fugiat? Assumenda, iure in dolor exercitationem distinctio tempore perspiciatis saepe optio nihil vero accusamus? Suscipit dignissimos corporis officiis quaerat numquam.</p>
+			</div><!--saude-single-->
+		</div><!--box-saude-->
+	</div><!--container-->
+</section><!--section-saude-->
+
+					<!--------CONTATO-------->
+<section class="contato">
+	<anchor id="contato"></anchor>
+	<h1>Agende sua consulta</h1>
+	<h2>Entre em contato por telefone, Whatsapp, ou pelo formulário abaixo.</h2>
+	<div class="container">
+		<div class="box-contato">
+			<div class="contato">
+				<h2>Danielle Freire, Psicóloga.</h2>
+				<p>Sit duis ipsum magna anim proident ex laborum fugiat irure elit tempor duis ipsum aute. Adipisicing est quis anim quis non reprehenderit.</p>
+				<p>ENDEREÇO:<br/>
+				Rua Lorem Ipsum, nº 999. Silor Domor.<br/>
+				Fugiat-MA. CEP: 99.999-999</p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i>TELEFONE: (99)3333-3333</p>
+				<p><i class="fa fa-whatsapp" aria-hidden="true"></i>WHATSAPP: (99)99999-9999</p>
+				<p><i class="fa fa-envelope" aria-hidden="true"></i>E-mail: <a target="_blank" href="mailto:contato@psicologa.br">contato@psicologa.br</a></p>
+			</div><!--contato-left-->
+			<div class="contato">
+				<h2>Envie uma mensagem...</h2>
+				<form id="agend" method="post" action="sendmail.php">
+					<input class="form nome" type="text" name="nome" placeholder="Seu nome..." required />
+					<input class="form email" type="email" name="email" placeholder="Seu e-mail..." required />
+					<input class="form tel" id="fone" type="tel" name="telefone" placeholder="Telefone p/ contato..." required/>
+					<textarea class="form msg" name="mensagem" placeholder="Sua mensagem..." required ></textarea>
+					<div class="alert-submit">
+					<?php if(isset($_GET['sended']) && $_GET['sended'] == 1 ){ ?>
+						<p id="msg-sended">Mensagem enviada com sucesso! Responderemos em breve.</p>
+					<?php } else if(isset($_GET['sended']) && $_GET['sended'] == 2 ){ ?>
+						<p id="msg-error">Erro: mensagem NÃO enviada. Favor conferir os dados informados ou tente novamente mais tarde.</p>
+					<?php } ?>
+					</div>
+					<input type="submit" name="acao" value="Enviar" id="send" />
+				</form>
+			</div><!--contato-left-->
+		</div><!--box-contato-->
+	</div><!--container-->
+</section><!--contato-->
+
+					<!--------FOOTER-------->
+<section class="footer">
+	<div class="container">
+		<div class="box-footer">
+			<div class="footer-single">
+				<h2>Redes sociais</h2>
+				<div class="sm-icons-footer">
+					<a target="_blank" title="Atendimento via Whatsapp" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+					<a target="_blank" title="Nossa página no Facebook" href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a target="_blank" title="Nosso perfil no Instagram" href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div><!--sm-icons-footer-->
+			</div><!--footer-single-->
+			<div class="footer-single">
+				<h2>Links úteis</h2>
+				<ul>
+					<li><a target="_blank" href="https://www.cvv.org.br/">CVV - Centro de Valorização da Vida</a></li>
+					<li><a target="_blank" href="https://site.cfp.org.br/">Conselho Federal de Psicologia</a></li>
+					<li><a target="_blank" href="http://www.crp11.org.br/">Conselho Regional de Psicologia 11ª Região (CE)</a></li>
+				</ul>
+			</div><!--footer-single-->
+		</div><!--box-footer-->
+		<span><p>Desenvolvido por: Henrique, L.<br/>
+		Baseado no tema: Mise Light - Por <a target="_blank" href='http://neotecnow.com/'>NeoTecnow;</a> Imagens de fundo: <a target="_blank" href='https://pixabay.com/'>pixabay.com</a>; Vetores criados por: <a target="_blank" href='https://br.freepik.com'>rawpixel.com - br.freepik.com</a>; Ícones de <a target="_blank" href="https://fontawesome.com/">FontAwesome</a></p></span>
+	</div><!--container-->
+</section><!--footer-->
+<!--fixed-whatsapp-->
+<div class="atend-ws">
+	<span>X</span><a target="_blank" href="https://api.whatsapp.com/send?phone=559999999999"><i class="fa fa-whatsapp" aria-hidden="true"></i><p>Atendimento via WhatsApp</p></a>
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/scroll-slider.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/functions.js"></script>
+</body>
+</html>
