@@ -396,6 +396,7 @@
 	::-ms-input-placeholder{color:white;}
 
 	.alert-submit p{
+		display: none;
 		text-align: center;
 		font-weight: bold;
 		padding: 0;
