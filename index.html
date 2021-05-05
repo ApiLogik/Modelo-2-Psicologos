@@ -40,7 +40,7 @@
 					<a target="_blank" title="Nossa página no Facebook" href="https://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a target="_blank" title="Nosso perfil no Instagram" href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 				</div><!--sm-icons-->
-				
+
 				<div class="icon-menu-mob"><i class="fa fa-bars" aria-hidden="true"></i></div>
 				
 			</div><!--header-r-->
@@ -194,18 +194,15 @@
 			</div><!--contato-left-->
 			<div class="contato">
 				<h2>Envie uma mensagem...</h2>
-				<form id="agend" method="post" action="">
+				<form id="agend" method="post" action="sendmail.php">
 					<input class="form nome" type="text" name="nome" placeholder="Seu nome..." required />
 					<input class="form email" type="email" name="email" placeholder="Seu e-mail..." required />
-					<input class="form tel" id="fone" type="tel" name="telefone" placeholder="Telefone p/ contato..." required/>
+					<input class="form tel" id="fone" type="tel" maxlength="14" minlength="13" name="telefone" placeholder="Telefone p/ contato..." />
 					<textarea class="form msg" name="mensagem" placeholder="Sua mensagem..." required ></textarea>
-					<!--<div class="alert-submit">
-					<?php if(isset($_GET['sended']) && $_GET['sended'] == 1 ){ ?>
+					<div class="alert-submit">
 						<p id="msg-sended">Mensagem enviada com sucesso! Responderemos em breve.</p>
-					<?php } else if(isset($_GET['sended']) && $_GET['sended'] == 2 ){ ?>
 						<p id="msg-error">Erro: mensagem NÃO enviada. Favor conferir os dados informados ou tente novamente mais tarde.</p>
-					<?php } ?>
-					</div>-->
+					</div>
 					<input type="submit" name="acao" value="Enviar" id="send" />
 				</form>
 			</div><!--contato-left-->
@@ -235,7 +232,7 @@
 			</div><!--footer-single-->
 		</div><!--box-footer-->
 		<span><p>Desenvolvido por: Henrique, L.<br/>
-		Baseado no tema: Mise-wp-Theme - Por <a target="_blank" href='https://crestaproject.com'>CrestaProject;</a> Imagens de fundo: <a target="_blank" href='https://pixabay.com/'>pixabay.com</a>; Vetores criados por: <a target="_blank" href='https://br.freepik.com'>rawpixel.com - br.freepik.com</a>; Ícones de <a target="_blank" href="https://fontawesome.com/">FontAwesome</a></p></span>
+		Baseado no tema: Mise-Wp-Theme- Por <a target="_blank" href='https://crestaproject.com'>CrestaProject;</a> Imagens de fundo: <a target="_blank" href='https://pixabay.com/'>pixabay.com</a>; Vetores criados por: <a target="_blank" href='https://br.freepik.com'>rawpixel.com - br.freepik.com</a>; Ícones de <a target="_blank" href="https://fontawesome.com/">FontAwesome</a></p></span>
 	</div><!--container-->
 </section><!--footer-->
 <!--fixed-whatsapp-->
@@ -245,7 +242,6 @@
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/scroll-slider.js"></script>
-<script src="js/jquery.inputmask.min.js"></script>
-<script src="js/functions.js"></script>
+<script type="module" src="js/functions.min.js"></script>
 </body>
 </html>
