@@ -1,11 +1,11 @@
-//------JS-JQUERY------
+import Mask from './phonemask.js';
 
 //Slide down / up menu mobile
 function toggleMobMenu(){
     let menudown = false;
 
     $('.icon-menu-mob').click(function(event){
-        if(menudown == false){
+        if(menudown === false){
             $('.mobile').slideDown(500);
             menudown = true;
         }else{
@@ -16,7 +16,7 @@ function toggleMobMenu(){
     });
 
     $('body,html').click(function(){
-        if(menudown == true){
+        if(menudown === true){
             $('.mobile').slideUp(500);
             menudown = false;
         }
@@ -33,21 +33,24 @@ $('.desktop a, .mobile a, .logo a').click(function(event){
 
 
 //Form mask - phone
-$('#fone').inputmask({
-    mask: ["(99) 9999-9999", "(99) 99999-9999", ],
-    keepStatic: true
-  });
+const inputPhone = document.querySelector('#fone');
+
+const loadMask = () => {
+	//Novo objeto Mask - parâmetro: o campo p/ tel do formulário;
+	const phoneMask = new Mask(inputPhone);
+	phoneMask.mask();
+}
+loadMask();
+
+inputPhone.addEventListener('focusin', e => e.target.placeholder = '(__)____-____');
+inputPhone.addEventListener('focusout', e => e.target.placeholder = 'Telefone p/ contato...');
+
+inputPhone.addEventListener('paste', event => event.preventDefault());
 
 //Disable Enter key on form inputs
 $(document).on("keydown", ":input:not(textarea)", function(event){
 	return event.key != "Enter";
 });
-
-if(window.location.search == "?sended=1" || window.location.search == "?sended=2") {
-	let anchorPosition = document.getElementById('contato').getBoundingClientRect();
-	let offset = { top: anchorPosition.top + window.pageYOffset }; 
-	document.querySelector('html, body').scrollTo({top: offset.top});
-}
 
 //Close Whatsapp
 $('.atend-ws span').click(function(){
